@@ -1,0 +1,11 @@
+// Entry point for importing non-rendering scss.
+// Import this file if you'd like to use bulma variables, mixins, etc in another component or project without dealing with all of the rendered bulma css
+
+// Import functions, required by some vars
+@import "~bulma/sass/utilities/functions";
+
+// Import variables first so they'll override bulma defaults
+@import "variables";
+
+// Import Bulma's utils (default variables, mixins, etc)
+@import "~bulma/sass/utilities/_all";
