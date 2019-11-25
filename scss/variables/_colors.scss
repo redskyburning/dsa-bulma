@@ -20,13 +20,15 @@ $cyan               : hsl(204, 86%, 53%);
 $blue               : hsl(217, 71%, 53%);
 $purple             : hsl(271, 100%, 71%);
 
-$red-darker         : #EC1F27;
-$red-darkest         : darken($red-darker, 20%);
-$red-dark           : #f04c53;
-$red-medium         : #f4797e;
-$red-light          : #f7a5a9;
+$red-lightest       : #fbd2d4;
 $red-lighter        : #f7a5a9;
-$red                : $red-darker;
+$red-light          : #f4797e;
+$red-medium         : #f04c53;
+$red-dark           : #EC1F27;
+$red-darker         : darken($red-dark, 20%);
+$red-darkest        : darken($red-dark, 30%);
+
+$red                : $red-dark;
 
 $primary            : $red;
 
@@ -81,9 +83,9 @@ $pre-background     : $background;
 
 // Link colors
 
-$link               : $red-darker;
-$link-invert        : findColorInvert($red-darker);
-$link-visited       : $purple;
+$link               : $primary;
+$link-invert        : $primary-invert;
+$link-visited       : $red-darker;
 
 $link-hover         : $grey-darker;
 $link-hover-border  : $grey-light;
