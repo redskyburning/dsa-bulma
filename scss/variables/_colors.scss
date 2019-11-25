@@ -21,6 +21,7 @@ $blue               : hsl(217, 71%, 53%);
 $purple             : hsl(271, 100%, 71%);
 
 $red-darker         : #EC1F27;
+$red-darkest         : darken($red-darker, 20%);
 $red-dark           : #f04c53;
 $red-medium         : #f4797e;
 $red-light          : #f7a5a9;
@@ -80,8 +81,8 @@ $pre-background     : $background;
 
 // Link colors
 
-$link               : $blue;
-$link-invert        : $blue-invert;
+$link               : $red-darker;
+$link-invert        : findColorInvert($red-darker);
 $link-visited       : $purple;
 
 $link-hover         : $grey-darker;
