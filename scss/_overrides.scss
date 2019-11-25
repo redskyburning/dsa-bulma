@@ -35,3 +35,22 @@
 		font-size:1.25em;
 	}
 }
+
+.card {
+	&-header {
+		&-title {
+			.title,
+			.subtitle {
+				color:inherit;
+			}
+		}
+
+		&-icon {
+			color:$red-dark;
+
+			&:hover {
+				color:$red-medium;
+			}
+		}
+	}
+}
