@@ -1,12 +1,17 @@
 {
   "name": "dsa-bulma",
   "version": "0.1.0",
-  "private": true,
-  "scripts": {
+	"license": "MIT",
+	"author": "Ben Webb",
+	"scripts": {
     "serve": "vue-cli-service serve",
     "build": "gulp",
     "lint": "vue-cli-service lint"
   },
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/npm/cli.git"
+	},
   "dependencies": {},
   "devDependencies": {
     "buefy": "^0.8.0",
