@@ -1,0 +1,56 @@
+// Overriding core bulma css should happen here
+.button {
+	font-weight:$weight-semibold;
+
+	&.is-text {
+		&.is-inverted {
+			color:$white;
+		}
+	}
+}
+
+.tag {
+	font-weight:$weight-semibold;
+
+	&:not(body) {
+		//line-height: 3em;
+		height:2.4em;
+		padding-left: .9em;
+		padding-right: .9em;
+	}
+}
+
+.content {
+	font-weight: $weight-medium;
+
+	a {
+		font-weight: $weight-bold;
+
+		strong {
+			font-weight:$weight-heavy;
+		}
+	}
+
+	blockquote {
+		font-size:1.25em;
+	}
+}
+
+.card {
+	&-header {
+		&-title {
+			.title,
+			.subtitle {
+				color:inherit;
+			}
+		}
+
+		&-icon {
+			color:$red-dark;
+
+			&:hover {
+				color:$red-medium;
+			}
+		}
+	}
+}
