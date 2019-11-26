@@ -6,7 +6,12 @@ import Buefy from 'buefy';
 import BuefyStyleGuide from 'buefy-style-guide';
 import './assets/scss/app.scss';
 
-Vue.use(Buefy);
+Vue.use(Buefy, {
+	css                 : false,
+	materialDesignIcons : false,
+	defaultIconPack     : 'fa',
+	defaultToastPosition: 'is-bottom-right',
+});
 Vue.use(BuefyStyleGuide);
 
 Vue.config.productionTip = false;
