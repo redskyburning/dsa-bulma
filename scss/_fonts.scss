@@ -1,0 +1,140 @@
+$font-path-manifold:'' !default;
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-Light.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-Light.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-Light.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-LightItalic.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-LightItalic.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-LightItalic.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-LightItalic.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-Regular.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-Regular.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-Regular.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-Regular.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-RegularItalic.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-RegularItalic.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-RegularItalic.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-RegularItalic.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-RegularItalic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-Medium.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-Medium.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-Medium.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-Medium.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-MediumItalic.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-MediumItalic.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-MediumItalic.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-MediumItalic.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-DemiBold.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-DemiBold.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-DemiBold.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-DemiBold.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-DemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-DemiBoldItalic.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-DemiBoldItalic.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-DemiBoldItalic.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-DemiBoldItalic.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-DemiBoldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-Bold.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-Bold.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-Bold.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-Bold.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-BoldItalic.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-BoldItalic.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-BoldItalic.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-BoldItalic.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-BoldItalic.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-ExtraBold.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-ExtraBold.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-ExtraBold.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-ExtraBold.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-ExtraBoldItalic.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-ExtraBoldItalic.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-ExtraBoldItalic.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-Heavy.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-Heavy.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-Heavy.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-Heavy.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family : 'ManifoldDSA';
+	src         : url('#{$font-path-manifold}/ManifoldDSA-HeavyItalic.eot');
+	src         : url('#{$font-path-manifold}/ManifoldDSA-HeavyItalic.eot?#iefix') format('embedded-opentype'), url('#{$font-path-manifold}/ManifoldDSA-HeavyItalic.woff2') format('woff2'),
+	url('#{$font-path-manifold}/ManifoldDSA-HeavyItalic.woff') format('woff'),
+	url('#{$font-path-manifold}/ManifoldDSA-HeavyItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}

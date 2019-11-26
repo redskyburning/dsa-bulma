@@ -3,11 +3,16 @@ import sass from 'gulp-sass';
 import cleanCSS from 'gulp-clean-css';
 import autoprefixer from 'gulp-autoprefixer';
 import del from 'del';
+import gulpCopy from 'gulp-copy';
 
 const paths = {
 	styles : {
 		src : 'scss/**/*.scss',
 		dest: 'dist/',
+	},
+	fonts : {
+		src : 'fonts/manifold/*',
+		dest: 'dist/manifold',
 	},
 };
 
@@ -21,6 +26,11 @@ export function styles() {
 		.pipe(gulp.dest(paths.styles.dest));
 }
 
-const build = gulp.series(clean, gulp.parallel(styles));
+export function fonts() {
+	return gulp.src(paths.fonts.src)
+		.pipe(gulp.dest(paths.fonts.dest));
+}
+
+const build = gulp.series(clean, gulp.parallel(styles, fonts));
 
 export default build;
