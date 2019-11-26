@@ -4,3 +4,6 @@
 @import "../node_modules/bulma/bulma";
 @import "overrides";
 @import "additions";
+
+$font-path-manifold:'manifold' !default;
+@import "fonts";
