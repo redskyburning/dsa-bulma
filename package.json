@@ -1,6 +1,6 @@
 {
  "name": "dsa-bulma",
- "version": "0.1.1",
+ "version": "0.1.2",
  "license": "MIT",
  "author": "Ben Webb",
  "scripts": {
@@ -30,9 +30,9 @@
   "gulp-autoprefixer": "^7.0.1",
   "gulp-clean-css": "^4.2.0",
   "gulp-concat": "^2.6.1",
-  "gulp-copy": "^4.0.1",
   "gulp-sass": "^4.0.2",
   "node-sass": "^4.9.0",
+  "node-sass-tilde-importer": "^1.0.2",
   "sass": "^1.19.0",
   "sass-loader": "^8.0.0",
   "vue": "^2.6.10",
