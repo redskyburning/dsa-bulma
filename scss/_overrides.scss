@@ -59,4 +59,14 @@
 	&-item {
 		font-weight:$weight-semibold;
 	}
+
+	@include until($navbar-breakpoint) {
+		&-item.has-dropdown {
+			&:not(.is-active) {
+				> .navbar-dropdown {
+					display:none;
+				}
+			}
+		}
+	}
 }
