@@ -33,6 +33,7 @@
 
 	blockquote {
 		font-size:1.25em;
+		foo:$navbar-height;
 	}
 }
 
@@ -57,7 +58,7 @@
 
 .navbar {
 	&-item {
-		font-weight:$weight-semibold;
+		font-weight:$weight-bold;
 	}
 
 	@include until($navbar-breakpoint) {
